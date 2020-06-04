@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         choices.add("item2");
         choices.add("item3");
         choices.add("item4");
+        choices.add("item5");
         dialog = new SingleFloatingDialog(this, 80, choices, new SingleFloatingDialog.OnSortChoiceListener() {
             @Override
             public void OnSortChoice(int position) {
